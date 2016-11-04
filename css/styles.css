@@ -293,3 +293,54 @@ footer {
     color:#444;
   }
 }
+#social-box {
+	width: 96px;
+	height: 22px;
+	position: fixed;
+	bottom: 140px;
+	left: 150px;
+}
+#social-box li {
+	float: left;
+	padding-left: 6px;
+	display: inline;
+}
+
+.facebook a {
+	background-image: url(/img/facebook.png);
+	background-position: 0 0px;
+	display: block;
+	height: 22px;
+	padding-left: 24px;
+	background-repeat: no-repeat
+}
+.facebook a:hover {
+	background-position: 0 -26px;
+	color: #444444;
+}
+.linkedin a {
+	background-image: url(/img/linkedin.png);
+	background-position: 0 0px;
+	display: block;
+	height: 21px;
+	padding-left: 24px;
+	background-repeat: no-repeat
+}
+.linkedin a:hover {
+	background-position: 0 -21px;
+	color: #444444;
+}
+.rss a {
+	background-image: url(/img/rss.png);
+	background-position: 0 0px;
+	display: block;
+	height: 22px;
+	padding-left: 24px;
+	background-repeat: no-repeat
+}
+.rss a:hover {
+	background-position: 0 -26px;
+	color: #444444;
+}
+
+ 
