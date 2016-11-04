@@ -15,7 +15,7 @@ The journey of [ARK](https://wiki.metakgp.org/w/Aerial_Robotics_Kharagpur) start
 The initial seeds of the idea came from the dream a bot project submission for making a quadrotor. To get the project started we in [Technology Robotix Society](http://robotix.in/) (TRS) tried putting together some funds and bought chassis, motors, ESC and an advanced arduino. The first 8k funding came as a personal loan from Ishan, then TRS Head and my wing-mate. Using the equipment obtained we were planning to develop the basic control system ourselves that will let us manually fly the quad. CB took up the controller development an MSc thesis project in the Physics Department. He was a close friend of Ishan&#39;s and wanted to work on controller development. Till this time the team comprised of me, Ishan and CB.
 
 <figure>
-	<img src="/img/image00.jpg" />
+	<img src="/ark-blog/img/image00.jpg" />
 	<figcaption style="text-align:center">Dream-a-bot notice</figcaption>
 </figure>
 
