@@ -5,7 +5,7 @@ layout: post
 Quadrotor Project in MS to ARK Initiative of India
 ========================
 
-<p class="date">5 November 2016 - Bangalore, India</p>
+<p class="date"><a href="https://in.linkedin.com/in/adityaagarwaliitkgp">Aditya Agarwal</a>, 5 November 2016 - Bangalore, India</p>
 
 
 The journey of [ARK](https://wiki.metakgp.org/w/Aerial_Robotics_Kharagpur) started in a small hostel room in IIT Kharagpur when it was simply known as The Quadrotor Project. Being the only project of its kind on campus, we never felt the need to give it a unique name. The project&#39;s journey from a generically named hobby project to Aerial robotics Kharagpur that participated in IARC Beijing is a unique one. After the stint at Beijing some would say that the journey is complete. But those of us who have worked on any autonomous machine know that this is a journey that seldom ends. The possibilities are endless.
@@ -15,12 +15,12 @@ The journey of [ARK](https://wiki.metakgp.org/w/Aerial_Robotics_Kharagpur) start
 The initial seeds of the idea came from the dream a bot project submission for making a quadrotor. To get the project started we in [Technology Robotix Society](http://robotix.in/) (TRS) tried putting together some funds and bought chassis, motors, ESC and an advanced arduino. The first 8k funding came as a personal loan from Ishan, then TRS Head and my wing-mate. Using the equipment obtained we were planning to develop the basic control system ourselves that will let us manually fly the quad. CB took up the controller development an MSc thesis project in the Physics Department. He was a close friend of Ishan&#39;s and wanted to work on controller development. Till this time the team comprised of me, Ishan and CB.
 
 <figure>
-	<img src="/ark-blog/img/image00.jpg" />
+	<img src="/img/image00.jpg" />
 	<figcaption style="text-align:center">Dream-a-bot notice</figcaption>
 </figure>
 
 <figure>
-	<img src="/ark-blog/img/image02.jpg" />
+	<img src="/img/image02.jpg" />
 	<figcaption style="text-align:center">Assembled Quadrotor in 2013</figcaption>
 </figure>
 
@@ -28,14 +28,14 @@ As controller development started we realized that developing a PID controller t
 
 
 <figure>
-	<img src="/ark-blog/img/image04.jpg" />
+	<img src="/img/image04.jpg" />
 	<figcaption style="text-align:center">The balancing bot</figcaption>
 </figure>
 
 From these learnings we realized that working on and testing a quadrotor requires a much more controlled environment where you are not worried about the bot flying off and hurting someone. Additionally chassis braking is unavoidable when tuning something as sensitive as PID flight controller. But at the time there were no funds to build an extensive lab and we did not have much experience to go about creating a proposal for one. Thus we decided to improvise. This gave birth to the idea of making a wooden stand which gives complete freedom of movement to the quadrotor on one axis. After multiple visits to the carpenter (Umesh) by RSC and Yogesh, the rolling stand was created. However we soon realized that a wood stand can&#39;t me made fiction free enough to allow the quadrotor to swing freely. In any case it gave us a stable place to test the quadrotor without it flying off. We did come up with improved designs but due to lack of time and resources they were not manufactured.
 
 <figure>
-	<img src="/ark-blog/img/image01.jpg" />
+	<img src="/img/image01.jpg" />
 	<figcaption style="text-align:center">The rolling stand</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ While we were doing these experiments, we also felt the need to have a more conc
 Our first real breakthrough on the technical as well as funding front happened in the year 2014. In early 2014, we came to know about the establishment of [Center of Excellence in Robotics](https://wiki.metakgp.org/w/Centre_for_Excellence_in_Robotics) (CFER). Before this we had tried several things for funding. We tried drafting a proposal for the Boeing Student Project in collaboration with the Aero Department and also getting funds from Physics Department. However in both cases our aims as a student group did not align well with the funding sources and hence we decided to not pursue. On the other hand CFER was a great opportunity for us to get funding for _our own proposal_. Thus we focused on bringing the Quadrotor project under this center as a it could end to all our funding problems. We dreamt big and began drafting a two phase proposal with the aim of participating in IARC and also developing the infrastructure required to undertake projects in autonomous aerial robotics. Several drafts were prepared and finalized with the help of JM sir and DKP sir. Discussions with Director sir were also held. _It was during a post-midsem evening in the middle of mid-semester exams of Autumn 2014 that we gave our final presentation to a committee of Deans and Professors_. By this time Me, Mrinal and Shushman had gained experience through internships in RI, CMU. This helped us in refining our proposal and presentation. Mrinal also purchased a Parrot AR drone. Based on the advice of our alumni Sanjiban (current PhD student at RI, CMU) having a ready to go drone would give us a head start and allow us to test our code without the need to setup all the hardware.
 
 <figure>
-	<img src="/ark-blog/img/image05.jpg" />
+	<img src="/img/image05.jpg" />
 	<figcaption style="text-align:center">Notification of proposal acceptance</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ Also, during this time the new Mission 7 was announced for IARC and Mission 6 wa
 
 The quadrotor journey has been a journey of many firsts, lows and highs and hopefully will continue to be so for years to come.
 <figure>
-    <img src="/ark-blog/img/image03.jpg" />
+    <img src="/img/image03.jpg" />
     <figcaption style="text-align:center">First batch of equipment in April 2015</figcaption>
 </figure>
 
