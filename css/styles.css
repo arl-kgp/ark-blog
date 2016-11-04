@@ -306,7 +306,7 @@ footer {
 }
 
 .facebook a {
-	background-image: url(/img/facebook.png);
+	background-image: url(/ark-blog/img/facebook.png);
 	background-position: 0 0px;
 	display: block;
 	height: 22px;
@@ -318,7 +318,7 @@ footer {
 	color: #444444;
 }
 .github a {
-	background-image: url(/img/github.png);
+	background-image: url(/ark-blog/img/github.png);
 	background-position: 0 0px;
 	display: block;
 	height: 21px;
@@ -330,7 +330,7 @@ footer {
 	color: #444444;
 }
 .rss a {
-	background-image: url(/img/rss.png);
+	background-image: url(/ark-blog/img/rss.png);
 	background-position: 0 0px;
 	display: block;
 	height: 22px;
