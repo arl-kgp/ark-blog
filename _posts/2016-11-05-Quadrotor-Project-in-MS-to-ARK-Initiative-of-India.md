@@ -13,7 +13,7 @@ The journey of [ARK](https://wiki.metakgp.org/w/Aerial_Robotics_Kharagpur) start
 <!-- more start -->
 
 ### Initial Seeds ###
-The initial seeds of the idea came from the dream a bot project submission for making a quadrotor. To get the project started we in [Technology Robotix Society](http://robotix.in/) (TRS) tried putting together some funds and bought chassis, motors, ESC and an advanced arduino. The first 8k funding came as a personal loan from Ishan, then TRS Head and my wing-mate. Using the equipment obtained we were planning to develop the basic control system ourselves that will let us manually fly the quad. CB took up the controller development an MSc thesis project in the Physics Department. He was a close friend of Ishan&#39;s and wanted to work on controller development. Till this time the team comprised of me, Ishan and CB.
+The initial seeds of the idea came from the dream a bot project submission for making a quadrotor. To get the project started we in [Technology Robotix Society](http://robotix.in/) (TRS) tried putting together some funds and bought chassis, motors, ESC and an advanced arduino. The first 8k funding came as a personal loan from [Ishan](https://in.linkedin.com/in/gargishan), then TRS Head and my wing-mate. Using the equipment obtained we were planning to develop the basic control system ourselves that will let us manually fly the quad. [CB](https://in.linkedin.com/in/chaitanya-bayanwala-37443127) took up the controller development an MSc thesis project in the Physics Department. He was a close friend of Ishan&#39;s, one year senior to us and wanted to work on controller development. Till this time the team comprised of me, Ishan and CB. While me and CB focussed on what equipment we should buy, Ishan and [Kalyani](https://in.linkedin.com/in/kalyaninimbalkar) helped us with getting the finances for them.
 
 <figure>
 	<img src="/ark-blog/img/image00.jpg" />
@@ -26,7 +26,7 @@ The initial seeds of the idea came from the dream a bot project submission for m
 </figure>
 
 ### Ground experiments before flying ###
-As controller development started we realized that developing a PID controller to balance roll pitch yaw directly will be a momentous task. So we switched to developing a self balancing bot that works on the same principles. It was the first bot we made using Lego kits and Arduino Mega. Parallely we also interfaced motors to an arduino and saw BLDC motors spin for the first time at full speed. We roped in RSC, my wing-mate, Githin, Mrinal and Soumyadeep, TRS subheads at the time and Avinash, TRS head at the time. Most of the experiments were done in RSCs room as it was the emptiest, strangely devoid of RSC&#39;s personal belongings.
+As controller development started we realized that developing a PID controller to balance roll pitch yaw directly will be a momentous task. So we switched to developing a self balancing bot that works on the same principles. It was the first bot we made using Lego kits and Arduino Mega. Parallely we also interfaced motors to an arduino and saw BLDC motors spin for the first time at full speed. We roped in RSC, my wing-mate, Githin, [Mrinal](https://www.linkedin.com/in/mrinalmohit) and Soumyadeep, TRS subheads at the time and Avinash, TRS head at the time. Most of the experiments were done in RSCs room as it was the emptiest, strangely devoid of RSC&#39;s personal belongings.
 
 
 <figure>
