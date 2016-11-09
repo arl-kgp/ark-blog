@@ -295,13 +295,14 @@ footer {
 }
 #social-box {
 	height: 22px;
-	position: fixed;
 	bottom: 115px;
-	left: 170px;
+}
+#social-box ul {
+	display:inline;
 }
 #social-box li {
 	float: left;
-	padding-left: 6px;
+	padding-right: 6px;
 	display: inline;
 }
 
