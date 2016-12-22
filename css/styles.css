@@ -2,8 +2,8 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#111;
+  font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#1f1f1f;
   font-weight:300;
 }
 
@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: normal;
   font-style: italic;
   color: #104E8B;
@@ -57,13 +57,12 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
-  margin:0 auto;
+  margin: 0 10% 10%;
 }
 
 .wrapper .date {
   color: #AAA;
-  font-size: 11px;
+  font-size: 14px;
 }
 
 blockquote {
@@ -112,7 +111,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:20%;
   float:left;
   position:fixed;
 }
@@ -200,7 +199,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:60%;
   float:right;
   padding-bottom:50px;
 }
@@ -217,10 +216,10 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:20%;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:5px;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -295,13 +294,14 @@ footer {
 }
 #social-box {
 	height: 22px;
-	position: fixed;
 	bottom: 115px;
-	left: 170px;
+}
+#social-box ul {
+	display:inline;
 }
 #social-box li {
 	float: left;
-	padding-left: 6px;
+	padding-right: 6px;
 	display: inline;
 }
 
@@ -341,5 +341,3 @@ footer {
 	background-position: 0 -26px;
 	color: #444444;
 }
-
- 
