@@ -9,3 +9,4 @@ All posts will be accepted as a PR only to be accepted by maintainer after build
 
 ##Maintainers
 1. [Soumyadeep Mukherjee](https://github.com/sam17)
+2. [Aman Chandra](https://github.com/amanchandra333)
