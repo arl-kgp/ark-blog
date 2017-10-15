@@ -5,18 +5,17 @@ layout: post
 Assembling a Multicopter
 ========================
 
-Beep Beep Beep Whirr! And the mechanical bird soared up and away! Indeed, **Aerial Robotics** is the most intriguing field in the world of Robotics.
-
 <p class="date"><a href="https://amanchandra333.github.io/">Aman Chandra</a>, 15 October 2017 - Kharagpur, India</p>
 
+Beep Beep Beep Whirr! And the mechanical bird soared up and away! Indeed, **Aerial Robotics** is the most intriguing field in the world of Robotics.
 
-## Summary
+### Summary
 This blog is a guide to assemble a multicopter with an onboard low level microcontroller, starting from the very quad-root level.
 Hop onboard, let's get started!
 
----
+<!-- more start -->
 
-## In this blog
+### In this blog
 
 - [APM/Pixhawk - *The Low Level Controller*](#apm)
 - [Motors and ESCs](#motors-and-escs)
@@ -37,10 +36,7 @@ Hop onboard, let's get started!
 - [Fly!](#fly)
 - [What's next?](#the-high-level-controller)
 
----
-
-
-## APM
+### APM
 
 <div class="side-by-side">
     <div class="toleft">
@@ -53,9 +49,7 @@ Hop onboard, let's get started!
     </div>
 </div>
 
----
-
-## Motors and ESCs
+### Motors and ESCs
 
 <div class="side-by-side">
     <div class="toleft">
@@ -68,9 +62,7 @@ Hop onboard, let's get started!
     </div>
 </div>
 
----
-
-## The Power Source
+### The Power Source
 
 <div class="side-by-side">
     <div class="toleft">
@@ -83,9 +75,7 @@ Hop onboard, let's get started!
     </div>
 </div>
 
----
-
-## RC Transmitter and Reciever
+### RC Transmitter and Reciever
 
 <div class="side-by-side">
     <div class="toleft">
@@ -98,9 +88,7 @@ Hop onboard, let's get started!
     </div>
 </div>
 
-----
-
-## GPS
+### GPS
 
 <div class="side-by-side">
     <div class="toleft">
@@ -113,17 +101,13 @@ Hop onboard, let's get started!
     </div>
 </div>
 
----
-
-## Assembly
+### Assembly
 
 The illustration below highlights the typical installation of a quadcopter. It contains optional equipment including a Camera, Gimbal and a Battery Monitor and it utilizes an ESC wired "Y" power connection rather than the power distribution board common to many MultiCopters.
 
 ![Assembly](/ark-blog/img/assembly_blog/assembly.jpg)
 
----
-
-### Motor Order Diagram
+#### Motor Order Diagram
 
 <div class="side-by-side">
     <div class="toleft">
@@ -136,10 +120,7 @@ The illustration below highlights the typical installation of a quadcopter. It c
     </div>
 </div>
 
----
-
-### Attaching Propellers
-
+#### Attaching Propellers
 
 <div class="side-by-side">
     <div class="toleft">
@@ -152,15 +133,11 @@ The illustration below highlights the typical installation of a quadcopter. It c
     </div>
 </div>
 
----
-
-## Mission Planner
+#### Mission Planner
 
 Mission Planner is free, open source software available for Windows. The latest version can be downloaded from [here](http://firmware.ardupilot.org/Tools/MissionPlanner/MissionPlanner-latest.msi).
 
----
-
-### Loading Firmware
+#### Loading Firmware
 
 Once you’ve installed the Mission Planner onto your computer, connect the autopilot board to your computer using the micro USB cable. Windows should automatically detect and install the correct driver software.
 
@@ -184,9 +161,7 @@ If all goes well you will see some status appear on the bottom right including t
     </div>
 </div>
 
----
-
-### Compass Calibration
+#### Compass Calibration
 
 * Under Initial Setup->Mandatory Hardware select Compass.
 * Select your flight controler configuration to automatically enter the most important configuration information for your board.
@@ -202,9 +177,7 @@ If all goes well you will see some status appear on the bottom right including t
 
 A video demonstration of the live compass calibration can be found [here](https://www.youtube.com/watch?v=DmsueBS0J3E).
 
----
-
-### Radio Control Calibration
+#### Radio Control Calibration
 
 RC transmitters are used to control vehicle movement and orientation. Copter minimally controls throttle, pitch, roll and yaw.  Each of these control signals are mapped to transmitter stick/switch(s) and in turn to autopilot channels from the connected receiver.
 
@@ -228,9 +201,7 @@ Copter default channel mappings are:
 ![RC Calibration](/ark-blog/img/assembly_blog/rccal.jpg)
 <figcaption class="caption">Input range marked with red lines</figcaption>
 
----
-
-### Accelerometer Calibration
+#### Accelerometer Calibration
 
 * Under Initial Setup->Mandatory Hardware, select Accel Calibration from the left-side menu.
 * Click Calibrate Accel to start the calibration.
@@ -245,9 +216,7 @@ The calibration positions are: level, on right side, left side, nose down, nose 
 
 A video demonstration can be found [here](https://vimeo.com/56224615).
 
----
-
-### ESC Calibration
+#### ESC Calibration
 
 Electronic speed controllers are responsible for spinning the motors at the speed requested by the autopilot. Most ESCs need to be calibrated so that they know the minimum and maximum pwm values that the flight controller will send.
 
@@ -270,10 +239,7 @@ Once you have calibrated your ESCs, you can test them by plugging in your LiPo. 
    * Give a small amount of throttle. All motors should spin at about same speed and they should start at the same time. If the motors do not all start at the same time and spin at the same speed, the ESC’s are still not properly calibrated.
 *    Disarm your copter.
 
-
----
-
-## Flight Modes
+### Flight Modes
 
 There are a few things you need to know about the flight modes in ArduCopter before flying.
 
@@ -283,9 +249,7 @@ There are a few things you need to know about the flight modes in ArduCopter bef
 
 You can read more about flight modes [here](http://ardupilot.org/copter/docs/flight-modes.html).
 
----
-
-## Arming the Motors
+### Arming the Motors
 
 * Before proceeding, ensure that the following params are set in Config/Tuning->Full Parameter List
 
@@ -299,7 +263,7 @@ You can read more about flight modes [here](http://ardupilot.org/copter/docs/fli
 * Once armed, the red arming light should go solid.
 * Raise the throttle to take-off.
 
-## Fly
+### Fly
 
 Flying a multicopter is an art and it will take some time, break some propellers ~~and explode some LiPos~~ but you will definitely get a hold of it! Fly high, may the thrust be with you!
 
@@ -309,10 +273,12 @@ Here's a video of the Hexacopter Eagle with a self-designed wooden frame:
 
 <div class="breaker"></div>
 
-## The High Level Controller
+### The High Level Controller
 
 The next step in the world of Aerial Robotics is Autonomous Flight. Odroid and Raspberry Pi are common High Level Controllers. Stay Tuned!
 
 ![Canary](/ark-blog/img/assembly_blog/canary.jpg)
 
 <div class="breaker"></div>
+
+<!-- more end -->
